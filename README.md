@@ -1,4 +1,4 @@
-# Interview-Fox
+# Interview Fox
 
-- Nuxt3
+- Nuxt.JS
 - Tailwind CSS
