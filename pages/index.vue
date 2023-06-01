@@ -22,7 +22,7 @@
       </div>
     </section>
     <div class="w-full flex justify-center items-center">
-      <BasicButton class="w-1/4">
+      <BasicButton>
         Get Started
       </BasicButton>
     </div>
