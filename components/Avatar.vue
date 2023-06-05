@@ -21,7 +21,7 @@ async function handleSignOut() {
     <div>
       <MenuButton>
         <img
-          src="/public/images/placeholder.jpg"
+          src="/images/placeholder.jpg"
           alt="avatar"
           class="inline-block h-6 w-6 rounded-full ring-2 ring-white cursor-pointer"
         >
