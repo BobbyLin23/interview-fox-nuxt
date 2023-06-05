@@ -1,4 +1,14 @@
 <script setup lang='ts'>
+const user = useSupabaseUser()
+const loginModal = useLoginModal()
+const router = useRouter()
+
+function handleStart() {
+  if (!user.value)
+    loginModal.value = true
+  else
+    router.push('/dashboard')
+}
 </script>
 
 <template>
@@ -22,9 +32,11 @@
       </div>
     </section>
     <div class="w-full flex justify-center items-center">
-      <BasicButton>
-        Get Started
-      </BasicButton>
+      <div class="w-1/4">
+        <BasicButton @click="handleStart">
+          Get Started
+        </BasicButton>
+      </div>
     </div>
   </main>
 </template>
