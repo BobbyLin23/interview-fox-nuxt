@@ -13,9 +13,19 @@ export default defineNuxtConfig({
       path: '~/components/basic',
       prefix: 'Basic',
     },
+    {
+      path: '~/components/interview',
+      prefix: 'I',
+    },
     '~/components',
   ],
   devtools: {
     enabled: true,
+  },
+  app: {
+    pageTransition: {
+      name: 'page',
+      mode: 'out-in',
+    },
   },
 })

@@ -12,7 +12,6 @@ function handleStart() {
 </script>
 
 <template>
-  <AppHeader />
   <main class="w-full">
     <section class="w-full h-auto flex items-center justify-around py-[200px]">
       <div>

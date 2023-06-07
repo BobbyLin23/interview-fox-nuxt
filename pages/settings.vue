@@ -5,7 +5,7 @@ definePageMeta({
 </script>
 
 <template>
-  <div>Dashboard</div>
+  Settings
 </template>
 
 <style scoped></style>
